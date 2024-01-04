@@ -1,0 +1,30 @@
+# Disk DescriptorFile
+version=1
+encoding="UTF-8"
+CID=9e1555ed
+parentCID=ffffffff
+createType="twoGbMaxExtentSparse"
+
+# Extent description
+RW 8323072 SPARSE "Virtual Disk-s001.vmdk"
+RW 8323072 SPARSE "Virtual Disk-s002.vmdk"
+RW 131072 SPARSE "Virtual Disk-s003.vmdk"
+RW 8323072 SPARSE "Virtual Disk-s004.vmdk"
+RW 8323072 SPARSE "Virtual Disk-s005.vmdk"
+RW 8323072 SPARSE "Virtual Disk-s006.vmdk"
+RW 8323072 SPARSE "Virtual Disk-s007.vmdk"
+RW 8323072 SPARSE "Virtual Disk-s008.vmdk"
+RW 4521984 SPARSE "Virtual Disk-s009.vmdk"
+
+# The Disk Data Base 
+#DDB
+
+ddb.adapterType = "ide"
+ddb.geometry.cylinders = "62415"
+ddb.geometry.heads = "16"
+ddb.geometry.sectors = "63"
+ddb.longContentID = "49712ac72fe6c09856868f679e1555ed"
+ddb.toolsInstallType = "4"
+ddb.toolsVersion = "12352"
+ddb.uuid = "60 00 C2 9f 2a 01 97 fc-04 88 eb d8 06 4b 06 27"
+ddb.virtualHWVersion = "16"
